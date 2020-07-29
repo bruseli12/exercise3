@@ -22,4 +22,23 @@ public class Requirement3Test {
         //then
         Assert.assertEquals(user.getCredit(), 1067);
     }
+
+    @Test
+    public void should_return_3000_when_use_way2_given_buy_2000_promotion_tv(){
+        //given
+        Supermarket supermarket=new Supermarket();
+        supermarket.addGoods(new Goods("TV",2000,GoodsType.IMPROMOTION));
+        supermarket.updateGoodsTypetoProtion("TV");
+        ShoppingCart shoppingCart=new ShoppingCart();
+        shoppingCart.addGoods("TV",new HoldingGoods(1,supermarket.getGoods("TV")));
+        User user=new User("Tom");
+        supermarket.addUser(user);
+        //when
+
+        int credit=supermarket.calculate(shoppingCart, new CreditCalculateWay2());
+        user.setCredit(credit);
+        //then
+        Assert.assertEquals(user.getCredit(), 3000);
+    }
 }
+

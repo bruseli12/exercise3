@@ -15,4 +15,8 @@ public class HoldingGoods {
     public  int gettotalamt(){
         return  quanlity*goods.getPrice();
     }
+    public GoodsType getGoodsType(){
+        return  goods.getGoodsType();
+    }
+
 }
