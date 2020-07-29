@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Requirement3Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-29T08:38:12" hostname="LHD-PC" time="0.008">
+<testsuite name="Requirement3Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-29T09:48:51" hostname="LHD-PC" time="0.005">
   <properties/>
-  <testcase name="should_return_3000_when_use_way2_given_buy_2000_promotion_tv" classname="Requirement3Test" time="0.008"/>
-  <system-out><![CDATA[2000
-3000
-]]></system-out>
+  <testcase name="should_return_2090_when_use_way3_given_buy_800_promotion_tv_and_2000_promotion_washer" classname="Requirement3Test" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
