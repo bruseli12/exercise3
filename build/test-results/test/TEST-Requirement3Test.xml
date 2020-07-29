@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Requirement3Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-07-29T07:23:12" hostname="LHD-PC" time="0.005">
+  <properties/>
+  <testcase name="should_return_1067_when_use_way1_given_buy_2350_frige" classname="Requirement3Test" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
